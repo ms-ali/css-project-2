@@ -1,0 +1,246 @@
+/* common css starts */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.align-center{
+    align-items: center;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#categories .container .categories_cnt{
+    /* background-color: yellow; */
+    text-align: center;
+    padding: 125px 0;
+}
+
+#categories .container .categories_cnt img{
+    display: inline-block;
+    padding: 27px 0;
+    
+}
+
+
+
+#categories .container .categories_cnt p{
+    font-family: "Arimo", sans-serif;
+    font-weight: 400;
+    color: #444444;
+    line-height: 26px;
+    
+}
+/* #categories .container .categoriescard{
+    background-color: violet;
+} */
+#categories .container .categoriescard .card{
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 74px 51px;
+    border-radius: 5px;
+    margin: 95px auto;
+}
+
+#categories .container .categoriescard i{
+    font-size: 61px;
+}
+
+#categories .container .categoriescard h2{
+    color: #222222;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+#categories .container .categoriescard p{
+    font-family: "Arimo", sans-serif;
+    font-size: 14px;    
+    font-weight: 400;
+    color: #777777;
+}
+
+
+/* common css ends */
+
+
+
+
+/* nav bar starts */
+
+nav{
+    background-color: #fdf7ff;
+}
+
+nav .container{
+    border: 1px solid black;
+}
+nav .logo{
+    width: 15%;
+    
+}
+
+nav .menu{
+    width: 85%;
+    
+}
+
+nav .menu ul{
+    text-align: right;
+}
+
+nav .menu ul li{
+    display: inline-block;
+}
+
+nav .menu ul li a{
+    display: inline-block;
+    padding: 0 28px;
+    font-family: "Arimo", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #848484;
+    text-transform: uppercase;
+ 
+}
+
+nav .menu ul li.home a{
+    color: #00b8ef;
+}
+
+nav .menu ul li.button{
+    background-image: linear-gradient(#02b9ef, #55d1f5);
+    padding: 22px 21px;
+    border-radius: 5px;
+ 
+}
+
+nav .menu ul li.button a{
+    color: white;
+}
+/* nav bar starts */
+/* banner starts */
+#banner{
+    background-color: #fdf7ff;
+}
+#banner .container{
+    background-image: url(../images/bgbanner.png);
+    height: 560px;
+    background-repeat: no-repeat;
+    background-position: right;
+    /* background-color: #fdf7ff; */
+}
+
+#banner .container .banner_cnt{
+    margin: 174px 0;
+}
+
+#banner .container .banner_cnt h1{
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-size: 58px;
+    margin-bottom: 20px;
+}
+
+#banner .container .banner_cnt p{
+    font-family: "Arimo", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #444444;
+    line-height: 30px;
+}
+/* banner ends */
+
+/* catergories starts */
+
+#categories .container .categoriescard{
+    width: 100%;
+    
+    
+}
+
+#categories .categoriescard:hover .card{
+    padding: 76px 110px ;
+    background-color: #24c2f1;
+    color: white;
+}
+
+/* catergories ends */
+/* how it work starts */
+#howitwork{
+    margin: 159px 0;
+    text-align: center;
+    
+
+}
+
+#howitwork .container .work_cnt h1{
+    font-family: "Abril Fatface", serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+#howitwork .container .work_cnt img{
+    display: inline-block;
+    padding: 27px 0;
+}
+
+#howitwork .container .work_cnt p{
+    font-family: "Arimo", sans-serif;
+    font-weight: 400;
+    color: #444444;
+    line-height: 26px;    
+}
+
+#howitwork .container .howworkcard {
+    margin: 62px auto;
+    /* background-color: yellow; */
+}
+
+#howitwork .container .howworkcard .card{
+    margin: 0 20px;
+    width: 350px;
+    
+}
+
+#howitwork .container .howworkcard .card i{
+    font-size: 40px;
+    padding: 30px;
+    background-color: f5f5f5;
+}
+
+#howitwork .container .howworkcard .card h2{
+    padding: 10px;
+}
+
+#howitwork .container .howworkcard .card p{
+    font-family: "Arimo", sans-serif;
+    font-weight: 400;
+    color: #444444;
+    line-height: 20px;   
+    
+}
+
+
+
+
+/* how it work ends */
+
